@@ -1,0 +1,120 @@
+html, body {
+  background-color: rgba(26,26,26,1);
+  color: white;
+}
+
+h1 {
+  font-size: 4em;
+  color: rgba(63,141,217,1);
+}
+
+#header {
+  padding: 2%;
+  width: 96%;
+  height: 300px;
+  font-size: 2em;
+  text-align: right;
+  background-image: url('./images/tracking.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.hello {
+  padding: 0;
+  margin-top: 50px;
+  font-size: 2em;
+  color: black;
+}
+
+.name {
+   font-size: 5em;
+}
+
+#titles {
+  width: 90%;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 10% 5% 0 5%;
+  text-align: center;
+  border-bottom: 2px solid white;
+  font-size: 2em;
+}
+
+#socialMedia {
+  position: relative;
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+  margin: 5%;
+}
+
+#aboutMe {
+  width: 60%;
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  font-size: 2em;
+}
+
+.socialBlock {
+  display: block;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+
+.aboutTitle, .careTitle {
+  color: rgba(63,141,217,1);
+}
+
+a:link,
+a:visited {
+  color: rgba(63,141,217,1);
+  text-decoration: none;
+  font-size: 3em;
+  /* display: block;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray; */
+}
+
+a:hover {
+  color: white;
+}
+
+.socialLink {
+  width: 60%;
+  display: inline-block;
+}
+
+.facebook,
+.linkedin,
+.twitter {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.facebook {
+  background-image: url('./images/facebook.png');
+}
+
+.twitter {
+  background-image: url('./images/twitter.png');
+}
+
+.linkedin {
+  background-image: url('./images/linkedin.png');
+}
+
+#care {
+  width: 90%;
+  position: relative;
+  display: block;
+  font-size: 2em;
+  margin: 0 5%;
+  border-top: 1px solid gray;
+}
